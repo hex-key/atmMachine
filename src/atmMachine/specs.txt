@@ -1,0 +1,26 @@
+The code must have the following:
+
+A 2 methods called 'openAccount'
+	One taking an Integer of account number to open an account
+	Another taking an Integer of the account number and a double of initial deposit amount
+A method called 'closeAccount'
+	Takes a single parameter:  Integer of the account number  
+	Closes the account, only if there is no balance!
+A method called 'checkBalance'
+	Takes a single parameter:  Integer of the account number 
+	Returns a double the exact account value of all deposits into the account
+	Returns 0.0 if there is no valid account
+A method called 'depositMoney'
+	Takes two parameters
+	Integer of the account number
+	Double of the amount to deposit
+	Returns true/false depending on success or failure of deposit
+A method called 'withdrawMoney'
+	Takes two parameters
+	Integer of the account number
+	Double of the amount to withdraw
+	Returns true/false depending on success or failure of deposit
+** Apart from the descriptions, it needs to handle only correct deposit and balance amounts
+
+
+id max = 9 999 999 999 (10 digits) 
