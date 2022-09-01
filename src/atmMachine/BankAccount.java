@@ -1,23 +1,17 @@
+//i realize this is probably the worse way to do it but i wanted practice
+
 package atmMachine;
 
 public class BankAccount {
-	public final long ID_NUMBER;
+	public final int ID_NUMBER;
 	public double accountBalance;
 	
-	public BankAccount(long id) {
+	public BankAccount(int id) {
 		this.ID_NUMBER = id;
 	}
 	
-	public BankAccount(long id, double initialBalance) {
+	public BankAccount(int id, double initialBalance) {
 		this.ID_NUMBER = id;
 		this.accountBalance = initialBalance;
-	}
-	
-	public void deposit(double amount) {
-		
-	}
-	
-	public void withdraw(double amount) {
-		
 	}
 }
