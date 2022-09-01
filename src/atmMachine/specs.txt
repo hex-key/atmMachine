@@ -22,5 +22,3 @@ A method called 'withdrawMoney'
 	Returns true/false depending on success or failure of deposit
 ** Apart from the descriptions, it needs to handle only correct deposit and balance amounts
 
-
-id max = 9 999 999 999 (10 digits) 
